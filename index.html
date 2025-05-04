@@ -6,15 +6,30 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 40px;
+      margin: 0;
       background-color: #f4f4f4;
       color: #333;
     }
 
+    .navbar {
+      background-color: #222;
+      padding: 15px 20px;
+    }
+
+    .navbar a {
+      color: #fff;
+      margin-right: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
     .container {
       max-width: 800px;
-      margin: auto;
+      margin: 40px auto;
       background: white;
       padding: 30px;
       border-radius: 8px;
@@ -22,40 +37,22 @@
     }
 
     h1 {
-      color: #222;
-      margin-bottom: 10px;
-    }
-
-    p {
-      margin-bottom: 20px;
-    }
-
-    .nav {
-      margin-top: 30px;
-    }
-
-    .nav a {
-      display: inline-block;
-      margin-right: 20px;
-      text-decoration: none;
-      color: #007acc;
-      font-weight: bold;
-    }
-
-    .nav a:hover {
-      text-decoration: underline;
+      margin-top: 0;
     }
   </style>
 </head>
 <body>
+
+  <div class="navbar">
+    <a href="/ImainateGames.github.io/">Home</a>
+    <a href="/ImainateGames.github.io/about.html">About</a>
+    <!-- Add more links as needed -->
+  </div>
+
   <div class="container">
     <h1>Welcome to Imaginate Games</h1>
     <p>A solo-driven indie game studio focused on crafting imaginative, story-rich experiences for players who crave more than just gameplay — they crave worlds.</p>
-
-    <div class="nav">
-      <a href="about.html">About Us</a>
-      <!-- You can add more links here as your site grows -->
-    </div>
   </div>
+
 </body>
 </html>
