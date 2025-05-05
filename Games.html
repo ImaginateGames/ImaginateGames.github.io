@@ -1,0 +1,79 @@
+---
+layout: none
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Games</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #222;
+      padding: 15px 20px;
+    }
+
+    .navbar a {
+      color: #fff;
+      margin-right: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+
+<body>
+  {% include navbar.html %}
+
+  <div class="container">
+    <h1>Games For Sale</h1>
+    <h2>FATEBOUND</h2>
+    <img src="FateBound_World.png" alt="An Image Showcasing the Fatebound World" style="height: 300px;width: 400px">
+    <style>
+    .btn {
+      position: absolute;
+      top: 700px;
+      left: 250px;
+      background-color: #444;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .btn:hover {
+      background-color: #666;
+    }
+  </style>
+  
+  <a href="FateBound.html" class="btn">Get The Game!</a>
+  </div>
+</body>
+</html>
