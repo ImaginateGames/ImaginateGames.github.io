@@ -1,0 +1,121 @@
+---
+layout: none
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Imaginate Games</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #222;
+      padding: 15px 20px;
+    }
+
+    .navbar a {
+      color: #fff;
+      margin-right: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+
+  {% include navbar.html %}
+
+  <div class="container">
+    <h2>The Extensions on <em>Fatebound</em></h2>
+    <p>serve as an enhancement toolkit for players, allowing them to:</p>
+  
+    <ul>
+      <li>
+        <strong>Advance More Quickly</strong> – Gain faster access to special items, quests, or skills that help you get ahead in your adventure.
+      </li>
+      <li>
+        <strong>Access Exclusive Content</strong> – Unlock additional lore, hidden quests, or unique character interactions that deepen your experience in the world of Fatebound.
+      </li>
+      <li>
+        <strong>Customize and Personalize</strong> – Choose special customization options for characters, equipment, or even the interface, making your journey more unique.
+      </li>
+      <li>
+        <strong>Enhance Gameplay</strong> – Enjoy boosted rewards, extra resources, or power-ups to help face the game's toughest challenges.
+      </li>
+    </ul>
+
+    <h2>Fatebound Expansions & Add-ons</h2>
+    
+    <ol>
+      <li>
+        <strong>New Classes Expansion – $9.99</strong><br>
+        Adds several unique classes with detailed abilities, lore, and custom skill trees. <br>
+        Includes classes like the Crusader, Monk, and Druid, each providing a fresh playstyle and abilities.
+      </li>
+      
+      <li>
+        <strong>Realms of Fate Expansion – $14.99</strong><br>
+        Explore entirely new realms such as the Celestial Haven and the Elder Abyss, complete with unique enemies, quests, and lore. <br>
+        Each realm offers around 1–3 hours of additional gameplay.
+      </li>
+      
+      <li>
+        <strong>Legendary Items Pack – $6.99</strong><br>
+        Gain access to a set of powerful items, each with special attributes and effects that can turn the tide in battle. <br>
+        Includes items like the Shadowforged Blade, Amulet of Ages, and more, perfect for enhancing combat and exploration.
+      </li>
+      
+      <li>
+        <strong>Story Extensions – $12.99</strong><br>
+        Continue the main story with additional quests, side missions, and lore. <br>
+        Adds story arcs such as <em>The Fallen Kingdom</em> and <em>Legacy of the Ancients</em>, providing 5+ hours of new content.
+      </li>
+      
+      <li>
+        <strong>Soulstone Artifacts – $4.99</strong><br>
+        Unlock ancient Soulstone relics, each offering unique buffs and powers tied to Fatebound lore. <br>
+        Artifacts like the Eternal Flame (extra healing) and Veil of Shadows (enhanced stealth).
+      </li>
+      
+      <li>
+        <strong>Creature Compendium – $5.99</strong><br>
+        Adds 20+ new creatures to the Fatebound world, each with distinct abilities and weaknesses. <br>
+        Ideal for players looking for challenging battles or interesting companion options.
+      </li>
+      
+      <li>
+        <strong>Companion Pets Pack – $3.99</strong><br>
+        Access a set of loyal companion pets that provide buffs or assist in battles. <br>
+        Includes companions like the Ethereal Fox (boosts stealth) and Phoenix Hatchling (grants minor healing).
+      </li>
+      
+      <li>
+        <strong>Visuals & Customizations – $2.99</strong><br>
+        Add skins, UI themes, and character appearance options to personalize your gameplay experience. <br>
+        Includes custom character skins, map themes, and item appearance adjustments.
+      </li>
+    </ol>
+  </div>
